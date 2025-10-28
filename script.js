@@ -190,8 +190,7 @@ setTimeout(() => {
   const heroTitle = document.querySelector(".hero-text h1");
   if (heroTitle) {
     const originalText = heroTitle.textContent;
-    // Uncomment the line below to enable typing effect
-    // typeWriter(heroTitle, originalText, 80);
+    typeWriter(heroTitle, originalText, 80);
   }
 }, 2000);
 
