@@ -246,6 +246,7 @@ function debounce(func, wait) {
 // Apply debounce to scroll events
 const debouncedScrollHandler = debounce(() => {
   // Scroll handling code here
+  console.log("scrolled")
 }, 10);
 
 window.addEventListener("scroll", debouncedScrollHandler);
